@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class TicTacToeClass {
     // Instance Variables
     private char[][] board;

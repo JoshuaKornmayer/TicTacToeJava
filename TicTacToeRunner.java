@@ -45,7 +45,9 @@ public class TicTacToeRunner
 		if ( ttt.isWinner('O') )
 			System.out.println("O is the winner!");
 		if ( ttt.isCat() )
-			System.out.println("The game is a tie.");
+            System.out.println("The game is a tie.");
+            
+        keyboard.close();
 
 	}
 }
